@@ -5,13 +5,13 @@ header {
     gap: 20px;
 }
 
-section {
+section.top {
     display: flex;
     gap: 240px;
     
 }
 
-div {
+div.bottom {
     display: flex;
     gap: 65px;
 }

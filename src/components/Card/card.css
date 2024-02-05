@@ -1,0 +1,7 @@
+section.card {
+    display: grid
+}
+
+h4.description {
+    display: flex;
+}
