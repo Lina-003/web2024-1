@@ -1,0 +1,17 @@
+header {
+    display: grid;
+    margin: 14px 18px;
+    justify-items: center;
+    gap: 20px;
+}
+
+section {
+    display: flex;
+    gap: 240px;
+    
+}
+
+div {
+    display: flex;
+    gap: 65px;
+}

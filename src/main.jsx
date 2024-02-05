@@ -8,5 +8,3 @@ const root = createRoot(appContainer)
 
 root.render(<App/>)
 
-
-console.log("Hello girlies");
