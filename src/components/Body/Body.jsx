@@ -1,6 +1,6 @@
-import React from 'react'
 import './body.css'
-import { Card } from '../Card/Card'
+import { Card } from './Card/Card'
+import { Genre } from './GenreFav/GenreFav'
 
 export function Body() {
     return(
@@ -21,6 +21,14 @@ export function Body() {
                     <Card/>
                     <Card/>
                     <Card/>
+                </div>
+            </div>
+            <div className='favorites'>
+                <h3>Más populares por género</h3>
+                <div className='cardG'>
+                    <Genre/>
+                    <Genre/>
+                    <Genre/>
                 </div>
             </div>
         </body>
