@@ -4,12 +4,12 @@ export function Genre() {
     return(
         <section className='genre'>
             <div className='imageG'>
-                <img src="./src/components/img/banner.jpg" width={132}></img>
+                <img src="https://mms.businesswire.com/media/20211207005260/en/933529/5/Lore_Olympus_2.jpg" width={80}></img>
             </div>
             <div className='descriptionG'>
-                <h4>Suspenso</h4>
-                <h3>Dulce hogar</h3>
-                <h4>Suspenso</h4>
+                <h4>Género</h4>
+                <h3>Título</h3>
+                <h4>Autor</h4>
             </div>
         </section>
 
