@@ -5,9 +5,9 @@ import { Card } from '../Card/Card'
 export function Body() {
     return(
         <body>
-            <section className='banner'>
-                <img src="./src/components/img/banner.jpg" alt='banner'></img>
-            </section>
+            <div className='banner'>
+                <img src="./src/components/img/banner.jpg" alt='banner' width={400}></img>
+            </div>
             <div className='News'>
                 <h3>Novedades de WEBTOON</h3>
                 <img src="https://shop.webtoon.com/cdn/shop/files/231026_BigBanner_Boyfriedns_4500x.png?v=1700131767" width={400}></img>
