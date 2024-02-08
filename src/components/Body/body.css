@@ -1,17 +1,23 @@
 body {
-    display: grid;
-   
+  display: grid;
+  font-family: Hind,simhei,verdana,Helvetica,sans-serif;
+  font-size: 14px;
+}
+
+div.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 133px);  
 }
 
 #Banner{
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
   @supports(object-fit: cover){
-      #Banner{
-        height: 100%;
-        object-fit: cover;
-        object-position: center center;
-      }
+    #Banner{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
   }
 

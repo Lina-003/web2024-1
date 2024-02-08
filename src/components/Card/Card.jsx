@@ -5,11 +5,11 @@ export function Card() {
     return(
         <section className='card'>
             <div className='image'>
-                <img src="./src/components/img/banner.jpg" width={100}></img>
+                <img src="./src/components/img/banner.jpg" width={132}></img>
             </div>
             <div className='description'>
-                <h4>Sobrenatural</h4>
-                <h3>Sweet Home</h3>
+                <h4>Suspenso</h4>
+                <h3>Dulce hogar</h3>
             </div>
         </section>
 

@@ -14,7 +14,14 @@ export function Body() {
             </div>
             <div className='Selections'>
                 <h3>Selecciones del día</h3>
-                <Card/>
+                <div className='cards'>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                </div>
             </div>
         </body>
     )

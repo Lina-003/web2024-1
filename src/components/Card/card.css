@@ -1,7 +1,24 @@
 section.card {
-    display: grid
+    display: grid;
+    border: 1px solid #e5e5e5;
+    margin: auto;
 }
 
-h4.description {
+div.image {
     display: flex;
+    width: auto;
+}
+
+div.description h4 {
+    font-family: Hind,simhei,verdana,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(196, 69, 76);
+    margin: 0px 10px;
+} 
+div.description h3 {
+    font-family: Hind,simhei,verdana,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 10px;
 }

@@ -21,8 +21,8 @@ div.left {
     margin: 8px 18px;
 }
 
-h4 {
-    font-family: Hind,simhei,verdana,Helvetica,sans-serif;;
+div.left h4 {
+    font-family: Hind,simhei,verdana,Helvetica,sans-serif;
     font-size: 18px;
     font-weight: normal;
 }
@@ -33,7 +33,7 @@ h4 {
     color: #000;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 500;
+  
     letter-spacing: -.2px;
     margin-right: 20px;
 }
@@ -47,7 +47,7 @@ h4 {
     color: #fff;
     display: inline-block;
     font-size: 14px;
-    font-weight: 500;
+
     height: 33px;
     line-height: 35px;
     text-align: center;
@@ -65,7 +65,7 @@ h4 {
     color: #838383;
     display: inline-block;
     font-size: 14px;
-    font-weight: 500;
+
     height: 31px;
     line-height: 33px;
     margin-left: 7px;
