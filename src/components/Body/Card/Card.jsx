@@ -1,14 +1,14 @@
 import './card.css'
 
-export function Card() {
+export function Card({image, genre, title}) {
     return(
         <section className='card'>
             <div className='image'>
-                <img src="./src/components/img/banner.jpg" width={132}></img>
+                <img src={image} width={132} alt="Portada"></img>
             </div>
             <div className='description'>
-                <h4>Suspenso</h4>
-                <h3>Dulce hogar</h3>
+                <h4>{genre}</h4>
+                <h3>{title}</h3>
             </div>
         </section>
 

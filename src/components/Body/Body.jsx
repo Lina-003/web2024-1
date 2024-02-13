@@ -1,6 +1,7 @@
 import './body.css'
 import { Card } from './Card/Card'
 import { Genre } from './GenreFav/GenreFav'
+import { data, dataG } from '../../data'
 
 export function Body() {
     return(
@@ -15,20 +16,28 @@ export function Body() {
             <div className='Selections'>
                 <h3>Selecciones del día</h3>
                 <div className='cards'>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
+                    {data.map((movie, index) =>
+                        <Card
+                        key={index}
+                        genre={movie.genre}
+                        image={movie.image}
+                        title={movie.title}
+                        />
+                    )}
                 </div>
             </div>
             <div className='favorites'>
                 <h3>Más populares por género</h3>
                 <div className='cardG'>
-                    <Genre/>
-                    <Genre/>
-                    <Genre/>
+                    {dataG.map((movie2, index) =>
+                        <Genre
+                        key={index}
+                        genre={movie2.genre}
+                        image={movie2.image}
+                        title={movie2.title}
+                        autor={movie2.autor}
+                        />
+                    )}
                 </div>
             </div>
         </body>
