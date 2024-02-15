@@ -1,6 +1,6 @@
 import './card.css'
 
-export function Card({image, genre, title}) {
+export function Card({image, genre, title, href}) {
     return(
         <section className='Card'>
             <div className='Image'>

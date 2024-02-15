@@ -9,19 +9,43 @@ div.Cards {
   grid-template-columns: repeat(3, 133px);  
 }
 
-div.ardG {
+div.CardG {
   margin: auto;
 }
 
-#Banner{
+.Banner{
   width: 100%;
   height: auto;
 }
-  @supports(object-fit: cover){
-    #Banner{
-      height: 100%;
-      object-fit: cover;
-      object-position: center center;
-    }
+
+.BodyFull {
+  display: none;
+}
+
+@media screen and (min-width: 760px) {
+  
+  .BodyFull{
+    display: grid;
+    justify-content: center;
   }
 
+  .BannerF img {
+    height: 510px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  div.CardsF {
+    display: grid;
+    grid-template-columns: repeat(3, 133px);  
+  }
+  
+  div.CardGF {
+    margin: auto;
+  }
+  
+  section.BodyResponsive {
+    display: none;
+  }
+  
+}
