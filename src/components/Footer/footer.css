@@ -1,0 +1,64 @@
+div.olympus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.olympus img {
+    width: 100px;
+    height: 95px;
+    object-fit: cover;
+    object-position: top;
+}
+
+div.olympus h3 {
+    font-size: 8px;
+    font-weight: normal;
+
+}
+
+div.adv {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(240, 240, 240);
+    border-left: 0;
+    border-right: 0;
+}
+div.adv h3 {
+    font-size: 8px;
+    font-weight: normal;
+}
+div.adv h4 {
+    font-size: 6px;
+    font-weight: normal;
+}
+div.adv img {
+    width: 5px;
+    height: 5px;
+}
+
+div.logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+div.menu-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 15px;
+    
+}
+div.menu-footer a, li{
+    font-size: 10px;
+    text-decoration: none;
+    list-style: none;
+}
