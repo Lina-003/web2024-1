@@ -4,12 +4,12 @@ body {
   font-size: 14px;
 }
 
-div.cards {
+div.Cards {
   display: grid;
   grid-template-columns: repeat(3, 133px);  
 }
 
-div.cardG {
+div.ardG {
   margin: auto;
 }
 

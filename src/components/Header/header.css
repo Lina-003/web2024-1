@@ -1,9 +1,9 @@
-.full {
+.Full {
   display: flex;
   align-items: center;
 }
 
-div.right {
+div.Right {
     --rem: 16;
     font-family: hind,simhei,verdana,Helvetica,sans-serif;
     font-size: 12px;
@@ -15,13 +15,13 @@ div.right {
     align-items: center;
 }
 
-div.left {
+div.Left {
     display: flex;   
     gap: 20px;
     margin: 8px 18px;
 }
 
-div.left h4 {
+div.Left h4 {
     font-family: Hind,simhei,verdana,Helvetica,sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -103,66 +103,66 @@ a {
     text-decoration-color: black;
 }
 
-div.top {
+div.Top {
     display: none;
 }
 
-div.bottom {
+div.Bottom {
     display: none;
 }
 
 @media screen and (max-width: 1024px) {
-    .responsive {
+    .Responsive {
         display: grid;
         margin: 14px 18px;
         justify-items: center;
         gap: 20px;
     }
 
-    div.top {
+    div.Top {
     display: flex;
     gap: 540px;
     
     }
 
-    div.bottom {
+    div.Bottom {
     display: flex;
     gap: 140px;
     }
 
-    div.right {
+    div.Right {
         display: none;
     }
 
-    div.left {
+    div.Left {
         display: none;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .responsive {
+    .Responsive {
         display: grid;
         margin: 14px 18px;
         justify-items: center;
         gap: 20px;
     }
 
-    div.top {
+    div.Top {
     display: flex;
     gap: 240px;
     
     }
 
-    div.bottom {
+    div.Bottom {
     display: flex;
     gap: 65px;
     }
 
-    div.right {
+    div.Right {
         display: none;
     }
 
-    div.left {
+    div.Left {
         display: none;
     }
 }

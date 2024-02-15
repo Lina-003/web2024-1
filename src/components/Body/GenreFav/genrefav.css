@@ -1,4 +1,4 @@
-section.genre {
+section.Genre {
     display: flex;
     border: 1px solid #e5e5e5;
     border-right: 0;
@@ -6,20 +6,20 @@ section.genre {
     margin: auto;
 }
 
-div.image {
+div.Image {
     display: flex;
     width: auto;
     margin: auto;
 }
 
-div.descriptionG h4 {
+div.DescriptionG h4 {
     font-family: Hind,simhei,verdana,Helvetica,sans-serif;
     font-size: 14px;
     font-weight: normal;
     color: rgb(255, 105, 198);
     margin: 2px 10px;
 } 
-div.descriptionG h3 {
+div.DescriptionG h3 {
     font-family: Hind,simhei,verdana,Helvetica,sans-serif;
     font-size: 16px;
     font-weight: bold;

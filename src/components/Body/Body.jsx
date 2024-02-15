@@ -6,7 +6,7 @@ import { data, dataG } from '../../data'
 export function Body() {
     return(
         <body>
-            <div className='banner'>
+            <div className='Banner'>
                 <img src="./src/components/img/banner.jpg" alt='banner' width={400}></img>
             </div>
             <div className='News'>
@@ -15,7 +15,7 @@ export function Body() {
             </div>
             <div className='Selections'>
                 <h3>Selecciones del día</h3>
-                <div className='cards'>
+                <div className='Cards'>
                     {data.map((movie, index) =>
                         <Card
                         key={index}
@@ -26,9 +26,9 @@ export function Body() {
                     )}
                 </div>
             </div>
-            <div className='favorites'>
+            <div className='Favorites'>
                 <h3>Más populares por género</h3>
-                <div className='cardG'>
+                <div className='CardG'>
                     {dataG.map((movie2, index) =>
                         <Genre
                         key={index}
