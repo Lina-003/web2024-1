@@ -4,47 +4,72 @@ body {
   font-size: 14px;
 }
 
-div.Cards {
+.cards-resp {
   display: grid;
-  grid-template-columns: repeat(3, 133px);  
+  grid-template-columns: repeat(3, 133px); 
+   
+}
+.cards-resp img {
+  width: 132px; 
+  margin: auto; 
 }
 
-div.CardG {
+.card-resp img {
+  width: 120px;
   margin: auto;
 }
 
-.Banner{
+.banner{
   width: 100%;
   height: auto;
 }
 
-.BodyFull {
+.body-full {
   display: none;
 }
 
 @media screen and (min-width: 760px) {
   
-  .BodyFull{
+  .body-full {
     display: grid;
     justify-content: center;
   }
 
-  .BannerF img {
+  .body-full h3 {
+    font-size: 18px;
+  }
+
+  .body-full h4 {
+    font-size: 16px;
+  }
+
+  .banner-full img {
     height: 510px;
     object-fit: cover;
     object-position: top;
   }
 
-  div.CardsF {
+  .cards-full {
     display: grid;
-    grid-template-columns: repeat(3, 133px);  
+    grid-template-columns: repeat(3, 300px); 
+    gap: 50px; 
+  }
+  .cards-full img {
+    width: 300px;
+    margin: auto; 
   }
   
-  div.CardGF {
+  .card-full {
     margin: auto;
   }
+
+  .card-full img {
+    width: 150px;
+    margin: auto; 
+    
+  }
   
-  section.BodyResponsive {
+  section.body-responsive {
     display: none;
   }
   
