@@ -1,7 +1,5 @@
 import React from 'react'
-import { Header } from "./components/Header/Header"
-import { Body } from "./components/Body/Body"
-import { Footer } from "./components/Footer/Footer"
+import { Body, Header, Footer } from './components'
 
 export default function App() {
     return(

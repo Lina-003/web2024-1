@@ -1,7 +1,9 @@
-
+import { useState } from 'react'
 import './header.css'
 
 export function Header() {
+    const [isOpen, setIsOpen] = useState(false);
+
     return(
         <header>
             <section className='Full'>
@@ -21,17 +23,26 @@ export function Header() {
             </section>
 
             <section className='Responsive'>
-                <div className='Top'>
-                    <img src="./src/components/img\WEBTOON.svg" width={120}></img>
-                    <img src="./src/components/img/Group 6.png" width={18}></img>
+            <div className='Top'>
+            <img src="./src/components/img/WEBTOON.svg" width={120}></img>
+            <img src="./src/components/img/Group 6.png" width={18}></img>
+            <button onClick={() => setIsOpen(!isOpen)}>
+                <div className='hamburger-menu'>
+                <div></div>
+                <div></div>
+                <div></div>
                 </div>
+                </button>
+            </div>
+            {isOpen && (
                 <div className='Bottom'>
-                    <img src="./src/components/img/Vector 3.svg" alt='Logo' width={20}></img>
+                <img src="./src/components/img/Vector 3.svg" alt='Logo' width={20}></img>
                     <img src="./src/components/img/Vector 4.svg" alt='Originales' width={20}></img>
                     <img src="./src/components/img/Vector 5.svg" alt='Canvas' width={20}></img>
                     <img src="./src/components/img/Group 5.svg" alt='Recientes' width={20}></img>
                     <img src="./src/components/img/Group 7.svg" alt='Logo' width={20}></img>
                 </div>
+            )}
             </section>
         </header>
     )

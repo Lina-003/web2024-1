@@ -1,7 +1,7 @@
 export const data = [
     {
         id: crypto.randomUUID(),
-        image: "https://scontent.fpei2-2.fna.fbcdn.net/v/t39.30808-6/236523317_421603776005327_4896582405863711508_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=e0NTo2JHM_QAX8Ozzfi&_nc_oc=AQk9YBUfT8UabGKBwUQgOaTe85v4uXskgnC0PCh2MSuGjP59utAPtCn56AvQFHXUv_0&_nc_ht=scontent.fpei2-2.fna&oh=00_AfCs2v6KyjHD61-K9a4Rj8g9aztnEGbkm8age01KuKnERA&oe=65D09E8E",
+        image: "https://swebtoon-phinf.pstatic.net/20230523_24/1684806922348SdzKN_JPEG/9LectorOmnisciente_landingpage_mobile.jpg?type=crop540_540",
         genre: "Terror",
         title: "Trastorno"
     },

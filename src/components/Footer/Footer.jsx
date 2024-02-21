@@ -25,20 +25,20 @@ export function Footer() {
                 </div>
                 <div className='Menu-Footer'>
                     <a href="https://webtoon.zendesk.com/hc/es/requests/new">Opiniones</a>
-                    <li class="bar">|</li>
+                    <li className="bar">|</li>
                     <a href="https://webtoon.zendesk.com/hc/es">Ayuda</a>
-                    <li class="bar">|</li>
+                    <li className="bar">|</li>
                     <a href="https://www.webtoons.com/es/terms">Términos</a>
-                    <li class="bar">|</li>
+                    <li className="bar">|</li>
                     <a href="https://www.webtoons.com/es/terms/privacyPolicy">Privacidad</a>
                 </div>
                 <div className='Copyright'>
                     <img src="https://logos-world.net/wp-content/uploads/2023/09/Webtoon-Emblem.png"
                     width={70}></img>
                     <p>
-					ⓒ NAVER WEBTOON Ltd.<span class="tab_space"></span>
-					Tax ID : 81-3830533<span class="tab_space"></span>Address : 5700 Wilshire Blvd. Suite 220 Los Ángeles, CA 90036, EE.UU.<span class="tab_space"></span>
-					E-mail : ayuda@webtoon.com<span class="tab_space"></span>Tel : (001) 323-297-3406
+					ⓒ NAVER WEBTOON Ltd.<span className="tab_space"></span>
+					Tax ID : 81-3830533<span className="tab_space"></span>Address : 5700 Wilshire Blvd. Suite 220 Los Ángeles, CA 90036, EE.UU.<span className="tab_space"></span>
+					E-mail : ayuda@webtoon.com<span className="tab_space"></span>Tel : (001) 323-297-3406
 				    </p>
                 </div>
             </section>
