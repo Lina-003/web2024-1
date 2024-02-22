@@ -1,9 +1,14 @@
-.Full {
+header {
+    display: flex;
+    margin-left: 25px;
+}
+
+.full {
   display: flex;
   align-items: center;
 }
 
-div.Right {
+div.right {
     --rem: 16;
     font-family: hind,simhei,verdana,Helvetica,sans-serif;
     font-size: 12px;
@@ -15,13 +20,13 @@ div.Right {
     align-items: center;
 }
 
-div.Left {
+div.left {
     display: flex;   
     gap: 20px;
     margin: 8px 18px;
 }
 
-div.Left h4 {
+div.left h4 {
     font-family: Hind,simhei,verdana,Helvetica,sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -103,91 +108,88 @@ a {
     text-decoration-color: black;
 }
 
-div.Top {
+div.top {
     display: none;
 }
 
-div.Bottom {
+div.bottom {
     display: none;
 }
 
 @media screen and (max-width: 1024px) {
-    .Responsive {
+    .responsive {
         display: grid;
-        margin: 14px 18px;
+        margin: 14px;
         justify-items: center;
         gap: 20px;
     }
 
-    div.Top {
+    div.top {
     display: flex;
-    
+    gap: 720px;
     align-items: center;
     
     }
 
-    div.Bottom {
+    div.bottom {
     display: flex;
     gap: 140px;
     }
 
-    div.Right {
+    div.right {
         display: none;
     }
 
-    div.Left {
+    div.left {
         display: none;
+    }
+
+    div.right-responsive {
+        display: flex;
+        gap: 20px;
+        align-items: center;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .Responsive {
+    .responsive {
         display: grid;
-        margin: 14px 18px;
+        margin: 14px 0px;
         justify-items: center;
         gap: 20px;
     }
 
-    div.Top {
+    div.top {
     display: flex;
-    gap: 100px;
+    gap: 170px;
     align-items: center;
     
     }
 
-    div.Bottom {
+    div.bottom {
     display: flex;
     gap: 65px;
     }
 
-    div.Right {
+    div.right {
         display: none;
     }
 
-    div.Left {
+    div.left {
         display: none;
+    }
+
+    div.right-responsive {
+        display: flex;
+        gap: 20px;
+        align-items: center;
     }
 }
 
-.hamburger-menu {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 2rem;
-  height: 2rem;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  z-index: 10;
+.hamburger-menu img {
+    display: flex;
+    width: 20px;
 }
 
-.hamburger-menu div {
-  width: 2rem;
-  height: 0.25rem;
-  background: #484848; 
-  border-radius: 10px;
-  transition: all 0.3s linear;
-  position: relative;
-  transform-origin: 1px;
-}
+
+

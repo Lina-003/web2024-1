@@ -1,4 +1,4 @@
-div.Olympus {
+div.olympus {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,20 +6,20 @@ div.Olympus {
 
 }
 
-div.Olympus img {
+div.olympus img {
     width: 100px;
     height: 94px;
     object-fit: cover;
     object-position: top;
 }
 
-div.Olympus h3 {
+div.olympus h3 {
     font-size: 15px;
     font-weight: normal;
 
 }
 
-div.AdvMBL {
+div.adv-mbl {
     display: flex;
     flex-direction: row;
     gap: 6px;
@@ -29,23 +29,23 @@ div.AdvMBL {
     border-left: 0;
     border-right: 0;
 }
-div.AdvMBL h3 {
+div.adv-mbl h3 {
     font-size: 15px;
     font-weight: normal;
 }
-div.AdvMBL img {
+div.adv-mbl img {
     width: 5px;
     height: 5px;
 }
 
-div.Logos {
+div.logos {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-top: 15px;
 }
 
-div.Menu-Footer {
+div.menu-footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -53,24 +53,24 @@ div.Menu-Footer {
     margin-top: 15px;
     
 }
-div.Menu-Footer a {
+div.menu-footer a {
     font-size: 15px;
     color: black;
     text-decoration: none;
 }
 
-div.Menu-Footer li {
+div.menu-footer li {
     list-style: none;
     color: rgb(167, 167, 167);
 
 }
-div.Copyright {
+div.copyright {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: rgb(114, 114, 114);
 }
-div.Copyright p {
+div.copyright p {
     display: flex;
     flex-direction: column;
     align-items: center;

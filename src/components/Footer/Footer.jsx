@@ -3,17 +3,17 @@ import './footer.css'
 export function Footer() {
     return(
         <footer>
-            <section className='Footer'>
-                <div className='Olympus'>
+            <section className='footer'>
+                <div className='olympus'>
                     <h3>Accede a las últimas historias creadas solo para WEBTOON</h3>
                     <img src="./src/components/img/olympus.webp"></img>
                 </div>
-                <div className='AdvMBL'>
+                <div className='adv-mbl'>
                     <h3>Anuncio</h3>
                     <img src="https://cdn-icons-png.flaticon.com/128/271/271228.png"></img>
                     <h3>¡Nueva actualizacion en Perfil de Creadores ...</h3>
                 </div>
-                <div className="Logos">
+                <div className="logos">
                     <img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-512.png"
                     width={20}></img>
                     <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-icon.png"
@@ -23,7 +23,7 @@ export function Footer() {
                     <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/twitter-icon.png"
                     width={20}></img>
                 </div>
-                <div className='Menu-Footer'>
+                <div className='menu-footer'>
                     <a href="https://webtoon.zendesk.com/hc/es/requests/new">Opiniones</a>
                     <li className="bar">|</li>
                     <a href="https://webtoon.zendesk.com/hc/es">Ayuda</a>
@@ -32,7 +32,7 @@ export function Footer() {
                     <li className="bar">|</li>
                     <a href="https://www.webtoons.com/es/terms/privacyPolicy">Privacidad</a>
                 </div>
-                <div className='Copyright'>
+                <div className='copyright'>
                     <img src="https://logos-world.net/wp-content/uploads/2023/09/Webtoon-Emblem.png"
                     width={70}></img>
                     <p>
