@@ -1,7 +1,7 @@
 export function Footer() {
     return(
       <footer>
-        <h3>Propiedad de Lina Manjarrez</h3>
+        <h4>Propiedad de Lina Manjarrez</h4>
       </footer>
     )
 }

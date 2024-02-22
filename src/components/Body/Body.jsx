@@ -1,14 +1,19 @@
 import { useState } from "react"
+import './body.css'
 
 export function Body() {
   const [count, setCount] = useState(0);
     return(
       <body>
         <section className="my-counter">
-          <h2>{count}</h2>
-          <button className="btn-increment" onClick={() => setCount(count + 1)}>+</button>
-          <button className="btn-decrement" onClick={() => setCount(count - 1)}>-</button>
-          <button className="btn-reset" onClick={() => setCount(0)}>Reset</button>
+          <div className="number">
+            <h2>{count}</h2>
+          </div>
+          <div className="buttons">
+            <button className="btn-decrement" id="dcmt" onClick={() => setCount(count - 1)}>-</button>
+            <button className="btn-reset" id="rst" onClick={() => setCount(0)}>Reset</button>
+            <button className="btn-increment" id="icmt" onClick={() => setCount(count + 1)}>+</button>
+          </div>
         </section>
       </body>
     )
