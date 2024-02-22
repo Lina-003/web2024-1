@@ -10,9 +10,17 @@ export function Body() {
             <h2>{count}</h2>
           </div>
           <div className="buttons">
-            <button className="btn-decrement" id="dcmt" onClick={() => setCount(count - 1)}>-</button>
-            <button className="btn-reset" id="rst" onClick={() => setCount(0)}>Reset</button>
-            <button className="btn-increment" id="icmt" onClick={() => setCount(count + 1)}>+</button>
+            <button className="btn-decrement" 
+            id="dcmt" 
+            onClick={() => setCount(count - 1)}
+            disabled={count === 0}>-</button>
+            <button className="btn-reset" 
+            id="rst" 
+            onClick={() => setCount(0)}
+            disabled={count === 0}>Reset</button>
+            <button className="btn-increment" 
+            id="icmt" 
+            onClick={() => setCount(count + 1)}>+</button>
           </div>
         </section>
       </body>
