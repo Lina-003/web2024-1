@@ -1,6 +1,9 @@
 header {
     display: flex;
-    margin-left: 25px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    margin-right: 0px;
 }
 
 .full {
@@ -122,13 +125,14 @@ div.bottom {
         margin: 14px;
         justify-items: center;
         gap: 20px;
+        justify-content: center;
     }
 
     div.top {
     display: flex;
     gap: 720px;
     align-items: center;
-    
+    justify-content: center;
     }
 
     div.bottom {
@@ -157,13 +161,14 @@ div.bottom {
         margin: 14px 0px;
         justify-items: center;
         gap: 20px;
+        justify-content: center;
     }
 
     div.top {
     display: flex;
     gap: 170px;
     align-items: center;
-    
+    justify-content: center;
     }
 
     div.bottom {

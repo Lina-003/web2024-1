@@ -14,14 +14,18 @@ export function Footer() {
                     <h3>¡Nueva actualizacion en Perfil de Creadores ...</h3>
                 </div>
                 <div className="logos">
+                    <a href="https://www.instagram.com/webtoonlatam/"> 
                     <img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-512.png"
-                    width={20}></img>
+                    width={20}/></a>
+                    <a href="https://www.youtube.com/channel/UCEmBM5dwmwsBZ8KVMQ9uQpg"> 
                     <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-icon.png"
-                    width={20}></img>
+                    width={20}/></a>
+                    <a href="https://www.facebook.com/Webtoonlatam/">
                     <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-512.png"
-                    width={20}></img>
+                    width={20}/></a>
+                    <a href="https://twitter.com/WEBTOONLATAM">
                     <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/twitter-icon.png"
-                    width={20}></img>
+                    width={20}/></a>
                 </div>
                 <div className='menu-footer'>
                     <a href="https://webtoon.zendesk.com/hc/es/requests/new">Opiniones</a>

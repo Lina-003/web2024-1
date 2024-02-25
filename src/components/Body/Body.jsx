@@ -31,6 +31,7 @@ export function Body() {
                             genre={movie.genre}
                             image={movie.image}
                             title={movie.title}
+                            link={movie.link}
                             />
                         )}
                     </div>
@@ -76,6 +77,7 @@ export function Body() {
                             genre={movie.genre}
                             image={movie.image}
                             title={movie.title}
+                            link={movie.link}
                             />
                         )}
                     </div>
