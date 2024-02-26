@@ -46,6 +46,7 @@ export function Body() {
                             image={movie2.image}
                             title={movie2.title}
                             autor={movie2.autor}
+                            link={movie2.link}
                             />
                         )}
                     </div>

@@ -1,8 +1,8 @@
 import './genrefav.css'
 
-export function Genre({image, genre, title, autor}) {
+export function Genre({image, genre, title, autor, link}) {
     return(
-        <section className='genre'>
+        <section className='genre' onClick={() => window.location.href = link}>
             <div className='image-genre'>
                 <img src={image}></img>
             </div>

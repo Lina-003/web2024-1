@@ -4,6 +4,7 @@ section.genre {
     border-right: 0;
     border-left: 0;
     margin: auto;
+    cursor: pointer;
 }
 
 .image-genre img {
