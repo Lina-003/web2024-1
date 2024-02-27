@@ -29,10 +29,22 @@ div.left {
     margin: 8px 18px;
 }
 
-div.left h4 {
+div.left h4:hover {
     font-family: Hind,simhei,verdana,Helvetica,sans-serif;
     font-size: 18px;
     font-weight: normal;
+    text-decoration: none;
+    color: #01dc64;
+}
+
+h4{
+    color: #000;
+}
+
+#Guia:hover {
+    
+    color: #01dc64;
+    
 }
 
 #Guia {
@@ -41,7 +53,6 @@ div.left h4 {
     color: #000;
     text-decoration: none;
     font-size: 18px;
-  
     letter-spacing: -.2px;
     margin-right: 20px;
 }
