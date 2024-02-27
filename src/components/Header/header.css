@@ -6,6 +6,10 @@ header {
     margin-right: 0px;
 }
 
+.container {
+    display: flex;
+}
+
 .full {
   display: flex;
   align-items: center;
@@ -130,10 +134,14 @@ div.bottom {
     display: none;
 }
 
+div.right-responsive {
+    display: none;
+}
+
 @media screen and (max-width: 1024px) {
     .responsive {
         display: grid;
-        margin: 14px;
+        margin: 14px 48px;
         justify-items: center;
         gap: 20px;
         justify-content: center;
@@ -169,7 +177,7 @@ div.bottom {
 @media screen and (max-width: 768px) {
     .responsive {
         display: grid;
-        margin: 14px 0px;
+        margin: 14px 25px;
         justify-items: center;
         gap: 20px;
         justify-content: center;

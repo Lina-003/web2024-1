@@ -8,9 +8,9 @@ export const data = [
     },
     {
         id: crypto.randomUUID(),
-        image: "https://pbs.twimg.com/media/FSwcxRWWUAAfnvy?format=jpg&name=medium",
-        genre: "Fantasía",
-        title: "Morgana y Oz",
+        image: "https://pbs.twimg.com/media/FCvpEgZXMBEpGEq?format=jpg&name=medium",
+        genre: "Romance",
+        title: "La novia del monstruo",
         link: "https://www.webtoons.com/es/fantasy/morgana-and-oz/list?title_no=4248"
     },
     {
