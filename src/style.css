@@ -2,10 +2,21 @@
     display: grid;
     justify-content: center;
     justify-items: center;
-    background-color: #ffffff;
+ 
 }
 
-h1, h2, h4 {
+:root {
+    background-image: url('https://wallpapercave.com/wp/wp10156648.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4 {
+    display: flex;
+    justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #6e68bd;
+    color: #4b3c6f;
+    background-color: #eeebf6;
+
 }

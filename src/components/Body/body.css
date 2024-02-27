@@ -5,7 +5,7 @@
 
 .buttons {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 #dcmt, #icmt, #rst {
@@ -16,7 +16,7 @@
     cursor: pointer;
     display: inline-block;
     font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 500;
     height: 40px;
     line-height: 20px;
@@ -35,7 +35,7 @@
 }
 
 #dcmt {
-    background-color: #d0a6e2;
+    background-color: #ca90e2;
 }
 
 #dcmt:hover,
@@ -44,7 +44,7 @@
 }
 
 #icmt {
-    background-color: #ffabc3;
+    background-color: #de89a1;
 }
 
 #icmt:hover,
@@ -53,10 +53,14 @@
 }
 
 #rst {
-    background-color: #a7c5fd;
+    background-color: #8ea9da;
 }
 
 #rst:hover,
 #rst:focus {
     background-color: #a6c2e9;
+}
+
+h2 {
+    font-size: 40px;
 }
