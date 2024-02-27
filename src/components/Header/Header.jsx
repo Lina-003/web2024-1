@@ -59,26 +59,36 @@ export function Header() {
             </div>
             {isOpen && (
                 <div className='bottom'>
-                    <img src="./src/components/img/Vector 3.svg" 
-                        alt='Logo' 
+                    <a href='http://localhost:5173/'>
+                        <img src="./src/components/img/Vector 3.svg" 
+                        alt='Home' 
                         width={20}>
-                    </img>
-                    <img src="./src/components/img/Vector 4.svg" 
+                        </img>
+                    </a>
+                    <a href='https://m.webtoons.com/es/originals'>
+                        <img src="./src/components/img/Vector 4.svg" 
                         alt='Originales' 
                         width={20}>
-                    </img>
-                    <img src="./src/components/img/Vector 5.svg" 
+                        </img>
+                    </a>
+                    <a href='https://m.webtoons.com/es/canvas'>
+                        <img src="./src/components/img/Vector 5.svg" 
                         alt='Canvas' 
                         width={20}>
-                    </img>
-                    <img src="./src/components/img/Group 5.svg" 
+                        </img>
+                    </a>
+                    <a href='https://m.webtoons.com/es/recent'>
+                        <img src="./src/components/img/Group 5.svg" 
                         alt='Recientes' 
                         width={20}>
-                    </img>
-                    <img src="./src/components/img/Group 7.svg" 
-                        alt='Logo' 
+                        </img>
+                    </a>
+                    <a href='https://m.webtoons.com/es/more'>
+                        <img src="./src/components/img/Group 7.svg" 
+                        alt='Más' 
                         width={20}>
-                    </img>
+                        </img>
+                    </a>
                 </div>
             )}
             </section>
