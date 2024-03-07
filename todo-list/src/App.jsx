@@ -1,12 +1,13 @@
 import React from 'react';
+import { List, Form, Footer, Filters } from './components/index.js'
 
 export default function App() {
   return(
     <>
-    <section className='container'>
-      <h1>To-do List</h1>
-    </section>
-
+      <Form/>
+      <Filters/>
+      <List/>
+      <Footer/>
     </>
   )
 }
