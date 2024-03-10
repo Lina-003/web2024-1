@@ -38,3 +38,46 @@
     font-weight: 300;
     font-size: 14px;
 }
+
+@media screen and (max-width: 765px) {
+    .footer-container {
+        background-color: azure;
+        display: flex;
+        padding: 15px 20px 15px;
+        border-radius: 10px;
+        text-align: left;
+        justify-content: space-between;
+        align-items: center;
+        width: 260px;
+    }
+    
+    .footer-container p {
+        font-size: 14px;
+        font-weight: 500;
+        color: #252323;
+    }
+    
+    .footer-container button {
+        border-style: none;
+        background-color: #F9B68F;
+        border-radius: 15px;
+        padding: 16px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #444;
+        cursor: pointer;
+        width: 85px;
+    }
+    
+    .footer-container button:hover {
+        background-color: #EA702A;
+        color: #FFFF;
+        box-shadow: 1px 1px 8px #8c908c;
+    }
+    
+    .credits {
+        color: #FFFF;
+        font-weight: 300;
+        font-size: 14px;
+    }
+}
