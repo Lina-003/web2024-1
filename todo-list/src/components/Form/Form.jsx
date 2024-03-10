@@ -16,7 +16,7 @@ export function Form({ addTask }) {
   };
 
    return(
-    <>
+    <section className='form'>
       <h1> TO DO LIST </h1>      
       <form onSubmit={handleSubmit} className="form-container">
         <input
@@ -28,6 +28,6 @@ export function Form({ addTask }) {
 
         <button type="submit"> Add </button>
       </form>
-    </>
+    </section>
     )
 }

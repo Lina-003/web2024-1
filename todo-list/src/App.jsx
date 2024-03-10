@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { List, Form, Footer, Filters } from './components/index.js'
 
 export default function App() {
+
   const [tasks, setTasks] = useState([]);
   const [filter, setFilter] = useState('all');
 
@@ -41,6 +42,16 @@ export default function App() {
   const deleteAll = () => {
     setTasks(tasks.filter((task) => !task.completed));
   }
+
+  let message;
+  if (totalTasks === 0) {
+    message = "You don't have any task";
+  } else if (filter === 'completed' && completedCount === 0) {
+    message = "You don't have completed tasks";
+  } else if (filter === 'pending' && totalTasks === completedCount) {
+    message = "You don't have pending tasks";
+  }
+
   return(
     <>
       <Form addTask={addTask} />
@@ -49,4 +60,5 @@ export default function App() {
       <Footer completedCount={completedCount} totalTasks={totalTasks} deleteAll={deleteAll}/>
     </>
   )
+
 }
