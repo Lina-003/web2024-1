@@ -1,4 +1,4 @@
-.list-container ul {
+.list-container {
     border: 1px;
     border-style: groove;
     margin-left: 250px;
@@ -9,4 +9,38 @@
     color: #FFFF;
     backdrop-filter: blur(80px);
     font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.list-container li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.list-container li input {
+    margin-right: 15px;
+}
+
+.list-container ul {
+    padding: 0px 15px 0px 15px;
+}
+
+.button-delete {
+    background-color: #F3A052;
+    border-style: none;
+    padding: 15px;
+    border-radius: 20px;
+    color: #4D4B49;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button-delete:hover {
+    background-color: #FFFF;
+    color: #E2460E;
+    font-weight: 600;
+    box-shadow: 1px 2px 6px #848381;
 }

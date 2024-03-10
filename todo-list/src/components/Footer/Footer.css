@@ -11,7 +11,9 @@
 }
 
 .footer-container p {
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #252323;
 }
 
 .footer-container button {
@@ -29,4 +31,10 @@
     background-color: #EA702A;
     color: #FFFF;
     box-shadow: 1px 1px 8px #8c908c;
+}
+
+.credits {
+    color: #FFFF;
+    font-weight: 300;
+    font-size: 14px;
 }
