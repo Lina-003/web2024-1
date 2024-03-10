@@ -1,8 +1,10 @@
+import './Form.css';
+
 export function Form() {
     return(
-      <>     
+      <>
+      <h1> TO DO LIST </h1>      
       <div className="form-container">
-        <h1> To do List </h1> 
         <input
         type="text"
         placeholder='Add a task'

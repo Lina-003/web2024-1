@@ -1,0 +1,32 @@
+.footer-container {
+    background-color: azure;
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 15px 20px 15px;
+    border-radius: 10px;
+    text-align: left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container p {
+    font-size: 15px;
+}
+
+.footer-container button {
+    border-style: none;
+    background-color: #F9B68F;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #444;
+    cursor: pointer;
+}
+
+.footer-container button:hover {
+    background-color: #EA702A;
+    color: #FFFF;
+    box-shadow: 1px 1px 8px #8c908c;
+}

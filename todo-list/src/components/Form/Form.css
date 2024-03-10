@@ -1,0 +1,42 @@
+h1 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #FFFF;
+    text-shadow: 1px 4px 8px #264552;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-container input {
+    padding: 15px;
+    width: 550px;
+    border-radius: 15px;
+    border-style: none;
+    font-weight: 400;
+    color: #222F22;
+    font-size: 15px;
+}
+
+.form-container button {
+    padding: 15px;
+    border-radius: 15px;
+    border-style: none;
+    width: 90px;
+    font-weight: 500;
+    color: #2F2F2F;
+    font-size: 15px;
+    background-color: #FFFF;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0C4859; /* Cambia esto al color que prefieras */
+    font-weight: 600;
+    color: #FFFF;
+    box-shadow: 1px 4px 8px #4a4e4a;
+}
