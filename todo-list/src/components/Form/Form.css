@@ -41,7 +41,7 @@ h1 {
 }
 
 .form-container button:hover {
-    background-color: #0C4859; /* Cambia esto al color que prefieras */
+    background-color: #0C4859;
     font-weight: 600;
     color: #FFFF;
     box-shadow: 1px 4px 8px #4a4e4a;
