@@ -5,17 +5,28 @@ export function Filters({ handleFilter }) {
       <>
       <div className="filter-container">
         <label className="radio-filter">
-          <input type="radio" name="filter" onChange={() => handleFilter('all')} />
+          <input 
+          type="radio" 
+          name="filter" 
+          onChange={() => 
+          handleFilter('all')} />
           All
           </label>
 
         <label className="radio-filter">
-          <input type="radio" name="filter" onChange={() => handleFilter('completed')} />
+          <input 
+          type="radio" 
+          name="filter" 
+          onChange={() => 
+          handleFilter('completed')} />
           Completed
           </label>
     
         <label className="radio-filter">
-          <input type="radio" name="filter" onChange={() => handleFilter('pending')} />
+          <input 
+          type="radio" 
+          name="filter" onChange={() => 
+          handleFilter('pending')} />
           Pending
           </label>
       </div>

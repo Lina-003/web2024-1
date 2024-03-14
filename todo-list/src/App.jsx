@@ -7,19 +7,25 @@ export default function App() {
   const [filter, setFilter] = useState('all');
 
   const addTask = (text) => {
-    setTasks([...tasks, {id:Date.now(), text, completed: false}]);
+    setTasks([...tasks, {
+      id:Date.now(), 
+      text, 
+      completed: false}]);
   }
 
   const toggleTask = (taskId) => {
     setTasks(
       tasks.map((task) =>
-      task.id === taskId ? { ...task, completed: !task.completed } : task
+      task.id === taskId ? { 
+        ...task, completed: !task.completed 
+      } : task
       )
     )
   }
 
   const deleteTask = (taskId) => {
-    setTasks(tasks.filter((task) => task.id !== taskId));
+    setTasks(tasks.filter((task) => 
+    task.id !== taskId));
   }
 
   const handleFilter = (selectedFilter) => {
@@ -35,29 +41,46 @@ export default function App() {
     return true;
   })
 
-  const completedCount = tasks.filter((task) => task.completed).length;
+  const completedCount = tasks.filter((task) => 
+  task.completed).length;
 
   const totalTasks = tasks.length;
 
   const deleteAll = () => {
-    setTasks(tasks.filter((task) => !task.completed));
+    setTasks(tasks.filter((task) => 
+    !task.completed));
   }
 
   let message;
   if (totalTasks === 0) {
     message = "You don't have any task";
-  } else if (filter === 'completed' && completedCount === 0) {
+  } else if (filter === 'completed' && 
+  completedCount === 0) {
     message = "You don't have completed tasks";
-  } else if (filter === 'pending' && totalTasks === completedCount) {
+  } else if (filter === 'pending' && 
+  totalTasks === completedCount) {
     message = "You don't have pending tasks";
   }
 
   return(
     <>
-      <Form addTask={addTask} />
-      <Filters handleFilter={handleFilter} />
-      <List tasks={filterTasks} toggleTask={toggleTask} deleteTask={deleteTask} />
-      <Footer completedCount={completedCount} totalTasks={totalTasks} deleteAll={deleteAll}/>
+      <h1> TO DO LIST </h1>  
+      <Form 
+      addTask={addTask} 
+      />
+      <Filters 
+      handleFilter={handleFilter} 
+      />
+      <List 
+      tasks={filterTasks} 
+      toggleTask={toggleTask} 
+      deleteTask={deleteTask}
+      />
+      <Footer 
+      completedCount={completedCount} 
+      totalTasks={totalTasks} 
+      deleteAll={deleteAll}
+      />
     </>
   )
 

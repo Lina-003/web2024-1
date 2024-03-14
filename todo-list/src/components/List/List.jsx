@@ -1,6 +1,10 @@
 import './List.css'
 
-export function List({ tasks, toggleTask, deleteTask, message }) {
+export function List({ 
+  tasks, 
+  toggleTask, 
+  deleteTask, 
+  message }) {
     return(
       <>
       <div className="list-container">
@@ -21,7 +25,9 @@ export function List({ tasks, toggleTask, deleteTask, message }) {
                 />
                 <span>{task.text}</span>
               </div>
-              <button className='button-delete' onClick={() => deleteTask(task.id)}> Delete </button>
+              <button className='button-delete' 
+              onClick={() => 
+              deleteTask(task.id)}> Delete </button>
             </li>
           ))}
         </ul>

@@ -16,18 +16,17 @@ export function Form({ addTask }) {
   };
 
    return(
-    <section className='form'>
-      <h1> TO DO LIST </h1>      
-      <form onSubmit={handleSubmit} className="form-container">
+    <div className='form'>    
+      <form onSubmit={handleSubmit} 
+      className="form-container">
         <input
           type="text"
           value={inputTask}
           onChange={handleChange}
           placeholder='Add a task'
         />
-
         <button type="submit"> Add </button>
       </form>
-    </section>
+    </div>
     )
 }

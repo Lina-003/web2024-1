@@ -14,6 +14,14 @@
     margin-bottom: 100px;
 }
 
+
+h1 {
+    font-weight: 900;
+    font-size: 36px;
+    color: #FFFF;
+    text-shadow: 1px 4px 8px #264552;
+}
+
 @media screen and (max-width: 765px) {
 
     :root {
