@@ -75,6 +75,7 @@ export default function App() {
       tasks={filterTasks} 
       toggleTask={toggleTask} 
       deleteTask={deleteTask}
+      message={message}
       />
       <Footer 
       completedCount={completedCount} 
