@@ -19,11 +19,11 @@ export function Form({ addTask }) {
     <div className='form'>    
       <form onSubmit={handleSubmit} 
       className="form-container">
-        <input
+        <input maxlength="80"
           type="text"
           value={inputTask}
           onChange={handleChange}
-          placeholder='Add a task'
+          placeholder='Add a task (character limit: 80)'
         />
         <button type="submit"> Add </button>
       </form>
