@@ -66,21 +66,21 @@ export default function App() {
     <>
       <h1> TO DO LIST </h1>  
       <Form 
-      addTask={addTask} 
+        addTask={addTask} 
       />
       <Filters 
-      handleFilter={handleFilter} 
+        handleFilter={handleFilter} 
       />
       <List 
-      tasks={filterTasks} 
-      toggleTask={toggleTask} 
-      deleteTask={deleteTask}
-      message={message}
+        tasks={filterTasks} 
+        toggleTask={toggleTask} 
+        deleteTask={deleteTask}
+        message={message}
       />
       <Footer 
-      completedCount={completedCount} 
-      totalTasks={totalTasks} 
-      deleteAll={deleteAll}
+        completedCount={completedCount} 
+        totalTasks={totalTasks} 
+        deleteAll={deleteAll}
       />
     </>
   )

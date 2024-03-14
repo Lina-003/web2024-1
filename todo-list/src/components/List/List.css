@@ -1,8 +1,7 @@
 .list-container {
     border: 1px;
     border-style: groove;
-    margin-left: 250px;
-    margin-right: 250px;
+    width: 650px;
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -33,9 +32,9 @@
 .button-delete {
     background-color: #F3A052;
     border-style: none;
-    padding: 15px;
+    padding: 12px;
     border-radius: 20px;
-    color: #4D4B49;
+    color: #ffffff;
     font-size: 15px;
     cursor: pointer;
 }
@@ -51,7 +50,7 @@
     .list-container {
         border: 1px;
         border-style: groove;
-        padding: 15px;
+        padding: 12px;
         border-radius: 10px;
         text-align: left;
         color: #FFFF;
@@ -78,11 +77,11 @@
     }
     
     .button-delete {
-        background-color: #ffdca5;
+        background-color: #F3A052;
         border-style: none;
         padding: 15px;
         border-radius: 20px;
-        color: #4D4B49;
+        color: #ffffff;
         font-size: 13px;
         cursor: pointer;
     }

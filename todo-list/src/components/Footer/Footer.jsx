@@ -7,11 +7,17 @@ export function Footer({
     return(
       <>
       <div className="footer-container">
-        <p> Completed <strong>
-          {completedCount}
+        <p> 
+          Completed
+          &nbsp;
+          <strong>
+            {completedCount}
+            &nbsp;
           </strong> 
-           tasks of <strong>
-          {totalTasks}
+           tasks of
+           &nbsp;
+          <strong>
+            {totalTasks}
           </strong>
         </p>
         <button onClick={deleteAll}> 
@@ -20,7 +26,7 @@ export function Footer({
       </div>
       <div className="credits">
         <p><strong>Caro</strong>lina Velásquez - 
-        <strong>Lina</strong> Manjarrez</p>
+        <strong> Lina</strong> Manjarrez</p>
       </div>
       </>
     )
