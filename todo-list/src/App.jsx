@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { List, Form, Footer, Filters } from './components/index.js'
 
 export default function App() {
@@ -6,11 +6,29 @@ export default function App() {
   const [tasks, setTasks] = useState([]);
   const [filter, setFilter] = useState('all');
 
+  useEffect(() => {
+    const storedTasks = window.localStorage.getItem("tasks");
+    if (storedTasks) {
+      try {
+        const parsedTasks = JSON.parse(storedTasks);
+        setTasks(parsedTasks);
+      } catch (error) {
+        console.error("Error parsing tasks from localStorage:", error);
+      }
+    }
+  }, []);
+  
+
+  useEffect(() => {
+    window.localStorage.setItem("tasks", JSON.stringify(tasks))
+  }, [tasks])
+
   const addTask = (text) => {
     setTasks([...tasks, {
       id:Date.now(), 
       text, 
-      completed: false}]);
+      completed: false}
+    ]);
   }
 
   const toggleTask = (taskId) => {
@@ -25,7 +43,8 @@ export default function App() {
 
   const deleteTask = (taskId) => {
     setTasks(tasks.filter((task) => 
-    task.id !== taskId));
+    task.id !== taskId)
+    );
   }
 
   const handleFilter = (selectedFilter) => {
@@ -42,13 +61,15 @@ export default function App() {
   })
 
   const completedCount = tasks.filter((task) => 
-  task.completed).length;
+    task.completed
+  ).length;
 
   const totalTasks = tasks.length;
 
   const deleteAll = () => {
     setTasks(tasks.filter((task) => 
-    !task.completed));
+      !task.completed)
+    );
   }
 
   let message;

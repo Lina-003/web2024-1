@@ -4,7 +4,8 @@ export function List({
   tasks, 
   toggleTask, 
   deleteTask, 
-  message }) {
+  message }) 
+  {
     return(
       <>
       <div className="list-container">
@@ -19,9 +20,11 @@ export function List({
             <li key={task.id}>
               <div className='task-item'>
                 <input
-                type="checkbox"
-                checked={task.completed}
-                onChange={() => toggleTask(task.id)}
+                  type="checkbox"
+                  checked={task.completed}
+                  onChange={() => 
+                    toggleTask(task.id)
+                  }
                 />
                 <span>{task.text}</span>
               </div>

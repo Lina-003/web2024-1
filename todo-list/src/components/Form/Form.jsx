@@ -19,7 +19,7 @@ export function Form({ addTask }) {
     <div className='form'>    
       <form onSubmit={handleSubmit} 
       className="form-container">
-        <input maxlength="80"
+        <input maxLength="80"
           type="text"
           value={inputTask}
           onChange={handleChange}
