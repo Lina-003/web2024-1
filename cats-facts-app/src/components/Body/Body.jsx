@@ -8,9 +8,17 @@ import { CatImage } from '../CatImage';
 import { Button } from '../Button/Button';
 
 export const Body = () => {
-  const { fact, isLoading: isLoadingFacts } = useFetchFacts();
-  const { catImageUrl, isLoading: isLoadingImg, error: imgError, setReloadKey } = useFetchImageCats();
-  const [isLoading, setIsLoading] = useState(true);
+  const { fact, 
+          isLoading: isLoadingFacts
+  } = useFetchFacts();
+  const { catImageUrl, 
+          isLoading: isLoadingImg, 
+          error: imgError, 
+          setReloadKey 
+  } = useFetchImageCats();
+  const [isLoading, 
+        setIsLoading
+  ] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {

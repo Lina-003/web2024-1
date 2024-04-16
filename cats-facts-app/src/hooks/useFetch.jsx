@@ -1,13 +1,18 @@
 import { useState, useEffect } from 'react';
 
 export const useFetchFacts = () => {
-  const [fact, setFact] = useState('');
-  const [isLoadingFacts, setLoadingFacts] = useState(true);
+  const [fact, 
+        setFact
+  ] = useState('');
+  const [isLoadingFacts, 
+        setLoadingFacts
+  ] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://catfact.ninja/fact?max_length=140');
+        const response = await 
+        fetch('https://catfact.ninja/fact?max_length=140');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
@@ -15,7 +20,8 @@ export const useFetchFacts = () => {
         setFact(data.fact);
         setLoadingFacts(false);
       } catch (error) {
-        console.error('Facts was not found, sorry :c', error);
+        console.error('Facts was not found, sorry :c', 
+        error);
         setFact('unknown');
         setLoadingFacts(false);
       }
@@ -24,5 +30,7 @@ export const useFetchFacts = () => {
     fetchData();
   }, []);
 
-  return { fact, isLoadingFacts };
+  return { fact, 
+    isLoadingFacts 
+  };
 };
