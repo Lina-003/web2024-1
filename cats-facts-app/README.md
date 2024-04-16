@@ -1,1 +1,2 @@
-# web2024-1
+# Cats App
+Realizado por: Lina Manjarrez & Carolina Velásquez
