@@ -8,8 +8,8 @@ export const Button = ({ onClick }) => {
     }
 
     return (
-        <button onClick={handleOnClick}>
-            <label>New Fact</label>
+        <button className='codepen-button' onClick={handleOnClick}>
+            <span>New Fact</span>
         </button>
     )
 }

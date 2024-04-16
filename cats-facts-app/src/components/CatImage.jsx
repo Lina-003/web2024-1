@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import './Body/Body.css'
 
 export const CatImage = ({ src }) => {
     if (!src) {
@@ -7,8 +8,8 @@ export const CatImage = ({ src }) => {
     }
 
     return (
-        <div className='container-img'>
-            <img src={src} alt="Cat"/>
+        <div>
+            <img className='container-img' src={src} alt="Cat"/>
         </div>
     );
 }

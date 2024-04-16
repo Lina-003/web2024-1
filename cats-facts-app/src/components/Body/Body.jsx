@@ -1,11 +1,7 @@
 import React from 'react';
-import './Body.css'
 import { useState, useEffect } from 'react';
-import { useFetchFacts } from '../../hooks/useFetch';
-import { useFetchImageCats } from '../../hooks/useFetchImg';
-import { CatFact } from '../CatFact';
-import { CatImage } from '../CatImage';
-import { Button } from '../Button/Button';
+import './Body.css'
+import { useFetchFacts, useFetchImageCats, CatFact, CatImage, Button } from '../index';
 
 export const Body = () => {
   const { fact, 
@@ -29,7 +25,9 @@ export const Body = () => {
   }, []);
 
   if (isLoading || isLoadingFacts || isLoadingImg) {
-    return <div className='loader'>Loading...</div>;
+    return <div className='loader-container'>
+      <div className='loader'> </div>
+    </div>;
   }
 
   if (imgError) {
@@ -42,10 +40,14 @@ export const Body = () => {
 
   return (
     <main>
-      <h1>Learn Random Cat Facts</h1>
-      <CatImage src={catImageUrl}/>
-      <CatFact text={fact}/>
-      <Button onClick={handleReload}/>
+      <div className='all-container'>
+        <h1>Learn Random Cat Facts</h1>
+        <div className='image-container'>
+          <CatImage src={catImageUrl}/>
+        </div> 
+        <CatFact text={fact}/>
+        <Button onClick={handleReload}/>
+      </div>
     </main>
   );
 };
